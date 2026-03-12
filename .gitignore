@@ -1,0 +1,19 @@
+# Virtual environment
+venv/
+
+# Build artifacts
+build/
+dist/
+*.spec.bak
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# macOS
+.DS_Store
+*.iconset/
+
+# Config with API keys – KEEP THIS PRIVATE
+config.json

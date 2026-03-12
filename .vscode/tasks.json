@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run ChatBot",
+			"type": "shell",
+			"command": "cd /Users/subhrakantabehera/Desktop/ChatBot && source venv/bin/activate && python chatbot.py",
+			"group": "build",
+			"isBackground": true,
+			"problemMatcher": []
+		}
+	]
+}
